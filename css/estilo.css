@@ -1,0 +1,132 @@
+/*importando las fuentes nuevas*/
+@font-face {
+    font-family: 'MrDafoe';
+    src: url('../font/MrDafoe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../font/Nunito.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-award {
+  font-size: 28px;
+  color: gold;
+}
+.icon-birthday {
+  font-size: 40px;
+  color: #fff;
+}
+
+/*fondo para el inicio ''index''*/
+.inicio-fondo {
+    position: relative;
+    background-image: url('../img/pastel_index_01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    overflow: hidden; 
+    z-index: 0;
+}
+
+
+
+/*generado 100% por gpt---------------------------------------------------*/
+.inicio-fondo::before {
+    content: "";                  /* obligatorio para ::before */
+    position: absolute;           /* para poder posicionarlo */
+    top: 0;                       /* esquina superior */
+    left: 0;                      /* esquina izquierda */
+    width: 100%;                  /* cubrir todo el ancho */
+    height: 100%;                 /* cubrir todo el alto */
+    background-color: rgba(0,0,0,0.4); /* negro al 10% de opacidad */
+    z-index: 1;                   /* detrás del texto pero encima de la imagen */
+    pointer-events: none;         /* no bloquea clicks sobre el contenido */
+}
+
+/*todo sobre menu inicio ------------------------------------------------*/
+.navbar {
+    background: transparent;
+    z-index: 100; /* sobre otros elementos */
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .navbar-logotipo {
+    text-decoration: none; 
+    font-family: 'MrDafoe';
+    font-size: 45px; 
+    color: #fff !important; 
+}
+
+.navbar .nav-link {
+    font-family: 'Pacifico';
+    font-size: 20px; 
+    color: #fff !important; 
+}
+
+/* Hover de links del navbar */
+.navbar .nav-link:hover {
+    color: bisque !important;
+}
+.navbar .navbar-logotipo:hover {
+    color: bisque !important;
+}
+
+
+/*todo sobre texto de bienvenida----------------------------------------*/
+.inicio-fondo .container {
+    position: relative;
+    z-index: 2; /* sobre la capa negra */
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inicio-titulo h1 {
+    font-family: 'MrDafoe';
+    font-size: 80px; 
+    color: #fff; 
+}
+.inicio-eslogan {
+    font-family: 'Nunito';
+    font-size: 25px; 
+    color: #fff; 
+}
+
+/*todo sobre el carrusel------------------------------------------------*/
+.titulo-seccion {
+    background-color: #fde5a7;
+    padding: 10px;
+    font-family: 'Pacifico';
+    font-size: 25px; 
+    text-align: left;
+    color: #725740; 
+}
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+}
+/*todo sobre el footer------------------------------------------------*/
+footer {
+  background-color: #806a54; /* aquí puedes elegir con la paleta interactiva */
+}
+
+footer i {
+  font-size: 2rem;   /* tamaño del ícono */
+  margin: 0 10px;    /* espacio entre íconos */
+  color: white;      /* color de los íconos */
+}
+
+footer i:hover {
+  color: #ffd700;    /* color al pasar el mouse (ejemplo dorado) */
+}
