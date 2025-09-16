@@ -40,7 +40,7 @@
 
 
 
-/*generado 100% por gpt---------------------------------------------------*/
+
 .inicio-fondo::before {
     content: "";                  /* obligatorio para ::before */
     position: absolute;           /* para poder posicionarlo */
@@ -129,4 +129,15 @@ footer i {
 
 footer i:hover {
   color: #ffd700;    /* color al pasar el mouse (ejemplo dorado) */
+}
+
+/* admin */
+
+.admin-titulo {
+  background-color: #F8E1BF;
+  color: #000000;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Pacifico';
+  text-align: center;
 }
