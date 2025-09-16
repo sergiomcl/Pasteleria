@@ -55,7 +55,7 @@ input {
     margin-left: 5px;
 }
 
-.btn-guardar {
+.btn-guardar, .btn-limpiar {
     width: 100%;
     padding: 12px;
     background: #694236;
@@ -68,7 +68,7 @@ input {
     margin-top: 10px;
 }
 
-.btn-guardar:hover {
+.btn-guardar:hover, .btn-limpiar:hover {
     background: #694236;
 }
 
