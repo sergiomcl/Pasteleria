@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle del Producto</title>
+  <link rel="stylesheet" href="css/detalle.css">
+</head>
+<body>
+  <header>
+    <h1>Detalle del Producto</h1>
+  </header>
+
+  <main class="detalle-container">
+    <!-- Imagen grande -->
+    <div class="detalle-imagen">
+      <img src="img/torta_chocolate.jpg" alt="Torta Cuadrada de Chocolate">
+    </div>
+
+    <!-- Info del producto -->
+    <div class="detalle-info">
+      <h2>Torta Cuadrada de Chocolate</h2>
+      <p class="precio">$45.000 CLP</p>
+      <p class="descripcion">Deliciosa torta de chocolate con relleno de crema, cubierta con ganache de cacao amargo.</p>
+
+      <!-- Cantidad y botón -->
+      <div class="acciones">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" value="1">
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Productos recomendados -->
+  <section class="recomendados">
+    <h3>🍰 Productos Recomendados</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="img/torta_vainilla.jpg" alt="Torta de Vainilla">
+        <h4>Torta Circular de Vainilla</h4>
+        <p>$40.000 CLP</p>
+        <a href="detalle.html" class="btn">Ver Detalles</a>
+      </div>
+      <div class="card">
+        <img src="img/cheesecake.jpg" alt="Cheesecake">
+        <h4>Cheesecake Sin Azúcar</h4>
+        <p>$47.000 CLP</p>
+        <a href="detalle.html" class="btn">Ver Detalles</a>
+      </div>
+      <div class="card">
+        <img src="img/torta_fresas.jpg" alt="Torta Frutal">
+        <h4>Torta Cuadrada de Frutas</h4>
+        <p>$50.000 CLP</p>
+        <a href="detalle.html" class="btn">Ver Detalles</a>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
