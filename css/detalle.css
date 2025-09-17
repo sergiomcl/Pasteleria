@@ -6,14 +6,12 @@
   align-items: flex-start;
 }
 
-/* Imagen producto */
 .detalle-imagen img {
   width: 400px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Información */
 .detalle-info {
   flex: 1;
 }
@@ -71,7 +69,7 @@
   margin-bottom: 0.5rem;
 }
 
-.btn {
+.btn_personalizado {
   display: inline-block;
   background: #e67e22;
   color: white;
@@ -81,6 +79,6 @@
   transition: 0.2s;
 }
 
-.btn:hover {
+.btn_personalizado:hover {
   background: #d35400;
 }
