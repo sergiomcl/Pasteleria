@@ -59,9 +59,20 @@
             <main id="contenidoPanel" style="flex-grow: 1; padding: 30px;">
                 <p id="mensajeInicio">Selecciona una opción del menú para comenzar.</p>
             </main>
+            <form id="formProducto" style="display: none;">
+                <input type="text" name="nombre" placeholder="Nombre del producto" required>
+                <input type="text" name="imagen" placeholder="URL de la imagen" required>
+                <input type="number" name="personas" placeholder="Cantidad de personas" required>
+                <input type="number" name="precio" placeholder="Precio" required>
+                <input type="text" name="categoria" placeholder="Categoría" required>
+                <button type="submit">Crear producto</button>
+                </form>
+
         </section>
     </div>
 </div>
+
+
 
 <!-- Footer redes sociales ---------------------------------------------------------------------------->
 <footer class="text-white text-center py-4 bg-dark mt-auto">
@@ -79,43 +90,7 @@
 </footer>
 
 
+<script src="js/admin.js"></script>
 
-
-
-
-<!--todo submenu----------------------------------------------------------------------------------->
-
-<script>
-function mostrarOpciones(tipo) {
-    let contenido = document.getElementById("contenidoPanel");
-
-    // limpiar contenido de la ventana
-    contenido.innerHTML = "";
-
-    // Creamos título
-    let titulo = document.createElement("h3");
-        titulo.style.marginTop = "-22px";   //alinea con el titulo del ''menu'''
-    titulo.textContent = tipo === "usuarios" ? "Usuarios" : "Productos";
-    contenido.appendChild(titulo);
-
-    // Creamos lista
-    let lista = document.createElement("ul");
-
-    // Definimos opciones según tipo
-    let opciones = tipo === "usuarios"
-        ? ["Mostrar usuarios", "Nuevo usuario", "Editar usuario"]
-        : ["Mostrar productos", "Nuevo producto", "Editar producto"];
-
-    // Agregamos elementos de la lista
-    opciones.forEach(opcion => {
-        let li = document.createElement("li");
-        let a = document.createElement("a");
-        a.href = "#";
-        a.textContent = opcion;
-        li.appendChild(a);
-        lista.appendChild(li);
-    });
-
-    contenido.appendChild(lista);
-}
-</script>
+</body>
+</html>
