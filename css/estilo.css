@@ -208,6 +208,27 @@ body.admin-page main,
 body.admin-login main {
     flex: 1;
 }
+/*mismo fondo version index---------------------*/
+body.index-background {
+    background: url("../img/fondoadmin.jpg") repeat; 
+    background-size: 25%; 
+}
+/*para los botones de las tarjetas color damasco---------------------*/
+.btn-damasco {
+    background-color: #f4a261 !important; /* damasco */
+    border: none !important;
+    color: #fff5e6 !important; /* beige */
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-damasco:hover {
+    background-color: #e76f51 !important; /* más oscuro en hover */
+    transform: scale(1.03);
+    color: #fffaf0 !important;
+}
+/*para los botones de las tarjetas color damasco---------------------*/
+
 /*duplicado para ambos nvar---------------------*/
 body.admin-page .navbar,
 body.admin-login .navbar {
