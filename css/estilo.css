@@ -84,6 +84,11 @@
     color: bisque !important;
 }
 
+.navbar-custom {
+    background-color: #694236; /* naranja */
+    
+}
+
 
 /*todo sobre texto de bienvenida----------------------------------------*/
 .inicio-fondo .container {
