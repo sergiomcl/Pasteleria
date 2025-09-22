@@ -89,6 +89,35 @@
     
 }
 
+/*  Barra de búsqueda en el navbar */
+.search-bar {
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 8px 40px 8px 15px; /* espacio para la lupa */
+    border-radius: 50px;
+    font-size: 14px;
+    width: 180px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #694236;
+    font-size: 18px;
+}
+
 
 /*todo sobre texto de bienvenida----------------------------------------*/
 .inicio-fondo .container {

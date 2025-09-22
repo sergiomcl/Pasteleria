@@ -22,3 +22,16 @@ body {
         table {
             margin: 0 auto;
         }
+
+    .password-container button {
+    background: #694236;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
