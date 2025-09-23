@@ -127,6 +127,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.inicio-fondo {
+  height: 500px; /* ajusta el valor a lo que necesites */
+}
 
 .inicio-titulo h1 {
     font-family: 'MrDafoe';
