@@ -56,11 +56,9 @@
 }
 
 /*todo sobre menu inicio ------------------------------------------------*/
+
 .navbar {
-    background: transparent;
-    z-index: 100; /* sobre otros elementos */
-    position: fixed;
-    width: 100%;
+    background-color: rgba(105, 66, 54, 0.6);
 }
 
 .navbar .navbar-logotipo {
@@ -85,7 +83,7 @@
 }
 
 .navbar-custom {
-    background-color: #694236; /* naranja */
+    background-color: #694236; 
     
 }
 
@@ -169,6 +167,19 @@ footer i {
 footer i:hover {
   color: #ffd700;    /* color al pasar el mouse (ejemplo dorado) */
 }
+/*para el logo del footer----------------------------*/
+.footer-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -44%); /* mitad afuera, mitad adentro */
+  font-family: 'MrDafoe', cursive; /* misma fuente de tu h1 */
+  font-size: 80px; /* ajusta tamaño */
+  font-weight: 600;
+  color: rgb(237, 206, 168);
+  text-shadow: 2px 2px 6px rgba(57, 52, 38, 0.5); /* sombreado */
+}
+/*FIN todo sobre el footer------------------------------------------------*/
 
 /* admin */
 
@@ -218,9 +229,14 @@ footer i:hover {
 
 
 
-
-
-
+/*atributos especiales para imagen quienes somos---------------------*/
+.imagen-nosotros {
+    display: block;         /* para poder centrarla */
+    margin: 0 auto 100px;    /* 0 arriba, centrado, 50px debajo */
+    width: 500px;           /* 250px original → 500px = 200% */
+    height: 300px;          /* 150px original → 300px = 200% */
+}
+/*atributos especiales para imagen quienes somos---------------------*/
 
 
 
@@ -324,3 +340,5 @@ body.admin-login .login-container h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
