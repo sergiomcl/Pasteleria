@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 5vh;
-    padding-top: 0.5px; /* asegura que el formulario no quede debajo del navbar */
+    padding-top: 10px; 
 }
 
 h1 {

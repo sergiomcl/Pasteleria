@@ -32,7 +32,7 @@
         <div class="login-container">
             <h1 class="admin-titulo">Bienvenido Administrador!</h1>
             <p class="text-center mb-4">Iinicia sesión para acceder al panel de gestión.</p>
-            <form action="admin.html" method="post">
+            <form action="admin.html" method="post" onsubmit="return validarAdminLogin()">
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo electrónico</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Ingresar correo" required>
@@ -68,6 +68,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/login_admin.js"></script>
 </body>
 </html>

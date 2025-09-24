@@ -1,80 +1,89 @@
-body {
-    display: flex;
-    justify-content: center;   /* Centrado horizontal */
-    align-items: center;       /* Centrado vertical */
-    height: 100vh;
-    margin: 0;
-    background-color: #FFF5E1;
-}
-.navbar-custom {
-    background-color: #694236; /* naranja */
-    
-}
 
-
+/* Espacio para que el formulario no quede debajo del navbar fijo */
 #formulario {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    background: #fff;
-    width: 450px;
+  max-width: 500px;
+  margin: 170px auto 40px auto;   padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 9px;
 }
 
-h1 {
-    text-align: center;
+/* Encabezado del formulario */
+#formulario h1 {
+  background-color: #694236;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
-table {
-    margin: 0 auto;
-    width: 100%;
+/* Texto superior */
+.texto-arriba {
+  text-align: center;
+  margin-bottom: 1px;
+  font-size: 13px;
 }
 
-input {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* Estructura del formulario */
+form {
+  display: flex;
+  flex-direction: column;
 }
 
+/* Etiquetas */
+label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 13px;
+}
+
+/* Contenedor de contraseña con botón */
 .password-container {
-    display: flex;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .password-container input {
-    flex: 1;
+  flex: 1;
 }
 
 .password-container button {
-    background: #694236;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-left: 5px;
+  padding: 6px 12px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
 }
 
-.btn-guardar {
-    width: 100%;
-    padding: 12px;
-    background: #694236;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+/* Botón de envío */
+input[type="submit"] {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #694236;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
 }
 
-.btn-guardar:hover {
-    background: #694236;
-}
-
-.texto-arriba {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 14px;
+input[type="submit"]:hover {
+  background-color: #694236;
 }

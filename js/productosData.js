@@ -7,7 +7,7 @@ const productos = [
     imagen: "img/torta1.png",
     precio: 45000,
     descripcion: "Deliciosa torta de chocolate con capas de ganache y un toque de avellanas. Personalizable con mensajes especiales.",
-    personas: 15,
+    personas: 10,
     categoria: "Tortas Cuadradas"
   },
   {
