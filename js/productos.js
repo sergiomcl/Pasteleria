@@ -1,3 +1,5 @@
+// logica filtros
+
 window.onload = function() {
   const categoriaInputs = document.querySelectorAll('input[name="categoria"]');
   const personasInputs = document.querySelectorAll('input[name="personas"]');

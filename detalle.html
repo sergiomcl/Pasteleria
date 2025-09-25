@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Detalle del Producto</title>
   <link rel="stylesheet" href="css/detalle.css">
- <!-- <link rel="stylesheet" href="css/productos.css"> -->
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/fontello.css">
   
@@ -32,7 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="carrito.html"><i class="bi bi-cart-fill"></i> Carrito</a></li> 
                     </ul>
 
-                          <!--  Barra de búsqueda -->
+                          <!-- Barra de búsqueda -->
               <form class="d-flex ms-3 search-bar">
                   <input class="form-control" type="search" placeholder="Buscar..." aria-label="Buscar">
                   <button class="btn" type="submit">
@@ -60,18 +59,18 @@
         </header>
   <main class="contenedor">
   <main class="detalle-container">
-    <!-- Imagen grande -->
+    <!-- Imagen en detalle-->
     <div class="detalle-imagen">
       <img id="detalle-imagen" src="" alt="">
     </div>
 
-    <!-- Info del producto -->
+    <!-- informacion del producto-->
     <div class="detalle-info">
       <h2 id="detalle-nombre"></h2>
       <p class="precio" id="detalle-precio"></p>
       <p class="descripcion" id="detalle-descripcion"></p>
 
-      <!-- Cantidad y botón -->
+      <!--seleccionar cantidad y boton para añadir -->
       <div class="acciones">
         <label for="cantidad">Cantidad:</label>
         <input type="number" id="cantidad" min="1" value="1">
@@ -79,10 +78,10 @@
       </div>
     </div>
   </main>
-
-  <!-- Productos recomendados (puedes dejarlo igual o hacerlo dinámico después) -->
+   
+  <!-- seccion productos recomendados -->
   <section class="recomendados">
-    <h3>🍰 Productos Recomendados</h3>
+    <h3> Productos Recomendados</h3>
     <div class="grid">
       <div class="card">
         <img src="img/torta3.png" alt="Torta de Vainilla">
@@ -104,14 +103,15 @@
       </div>
     </div>
   </section>
-  <!-- Popup de confirmación -->
+
+  <!--popup intermedio -->
 <div id="popup-carrito" class="popup-oculto">
   <div class="popup-contenido">
     <img id="popup-imagen" src="" alt="">
     <h4 id="popup-nombre"></h4>
     <p id="popup-precio"></p>
     <p>¿Qué deseas hacer?</p>
-    <button id="btn-seguir" class="btn btn-outline-primary">Seguir comprando</button>
+    <a href="productos.html" id="btn-seguir" class="btn btn-outline-primary">Seguir comprando</a>
     <a href="carrito.html" class="btn btn-success">Ir al carrito</a>
   </div>
 </div>

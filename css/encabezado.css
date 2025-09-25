@@ -40,19 +40,17 @@
 
 
 
-
-
-
+/* imagen negra por sobre */
 .inicio-fondo::before {
-    content: "";                  /* obligatorio para ::before */
-    position: absolute;           /* para poder posicionarlo */
-    top: 0;                       /* esquina superior */
-    left: 0;                      /* esquina izquierda */
-    width: 100%;                  /* cubrir todo el ancho */
-    height: 100%;                 /* cubrir todo el alto */
-    background-color: rgba(0,0,0,0.4); /* negro al 10% de opacidad */
-    z-index: 1;                   /* detrás del texto pero encima de la imagen */
-    pointer-events: none;         /* no bloquea clicks sobre el contenido */
+    content: "";                  
+    position: absolute;           
+    top: 0;                       
+    left: 0;                      
+    width: 100%;                  
+    height: 100%;                 
+    background-color: rgba(0,0,0,0.4); 
+    z-index: 1;                   
+    pointer-events: none;        
 }
 
 /*todo sobre menu inicio ------------------------------------------------*/

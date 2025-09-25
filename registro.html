@@ -45,37 +45,37 @@
             </div>
         </div>
     </nav>
-<section id="formulario">
-  <h1>Crear una cuenta</h1>
-  <p class="texto-arriba">¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+    <section id="formulario">
+        <h1>Crear una cuenta</h1>
+        <p class="texto-arriba">¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
 
-  <form id="registroForm" onsubmit="return validarFormulario()">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
+        <form id="registroForm" onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-    <label for="apellido">Apellidos:</label>
-    <input type="text" id="apellido" name="apellido" required>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido" required>
 
-    <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
 
-    <label for="password">Contraseña:</label>
-    <div class="password-container">
-      <input type="password" id="password" name="password" required>
-      <button type="button" onclick="togglePassword('password', this)">Mostrar</button>
-    </div>
+            <label for="password">Contraseña:</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <button type="button" onclick="togglePassword('password', this)">Mostrar</button>
+            </div>
 
-    <label for="confirmPassword">Confirmar contraseña:</label>
-    <div class="password-container">
-      <input type="password" id="confirmPassword" name="confirmPassword" required>
-      <button type="button" onclick="togglePassword('confirmPassword', this)">Mostrar</button>
-    </div>
+            <label for="confirmPassword">Confirmar contraseña:</label>
+            <div class="password-container">
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <button type="button" onclick="togglePassword('confirmPassword', this)">Mostrar</button>
+            </div>
 
-    <input type="submit" value="Guardar">
-  </form>
-</section>
+            <input type="submit" value="Guardar">
+        </form>
+    </section>
 
-<script src="js/registro.js"></script>
+    <script src="js/registro.js"></script>
 </body>
 
 </html>
